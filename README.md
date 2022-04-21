@@ -20,3 +20,17 @@ It is used for:
 * It has a huge community support (tens of millions of developers)
 * Java is an object oriented language which gives a clear structure to programs and allows code to be reused, lowering development costs.
 
+<h3>Getting Started </h3>
+
+We will be using JDoodle online compiler to learn coding in java. You don’t have to install anything on your system.
+
+<h3>Hello World</h3>
+
+System.out.println() is used to print something on the computer screen.
+
+Write the following code in the Jdoodle compiler and press execute.
+
+![Screenshot 2022-04-21 at 1 50 08 PM](https://user-images.githubusercontent.com/100328396/164412746-8612b915-4b68-446d-9523-5190e98f2a13.png)
+
+
+
