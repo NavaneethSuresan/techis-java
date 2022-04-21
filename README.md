@@ -266,7 +266,38 @@ Even though there are many numeric types in Java, the most used for numbers are 
 
 <h5>Byte</h5>
 
-The <span style='color:red'>byte</span> data type can store whole numbers from -128 to 127. This can be used instead of int or other integer types to save memory when you are certain that the value will be within -128 and 127:
+The byte data type can store whole numbers from -128 to 127. This can be used instead of int or other integer types to save memory when you are certain that the value will be within -128 and 127:
+
+![Screenshot 2022-04-21 at 9 39 57 PM](https://user-images.githubusercontent.com/100328396/164504212-772fba75-e63f-40c7-a11b-fcab0a7c176f.png)
+
+<h5>Short</h5>
+
+The short data type can store whole numbers from -32768 to 32767:
+
+![Screenshot 2022-04-21 at 9 43 23 PM](https://user-images.githubusercontent.com/100328396/164504825-56a3eb03-407f-4c38-a605-4237434019f9.png)
+
+<h5>Int</h5>
+
+The int data type can store whole numbers from -2147483648 to 2147483647. In general, and in our tutorial, the int data type is the preferred data type when we create variables with a numeric value.
+
+![Screenshot 2022-04-21 at 9 44 11 PM](https://user-images.githubusercontent.com/100328396/164504965-42cd7d41-4777-4027-b347-c784270e14e2.png)
+
+
+<h5>Long</h5>
+
+The long data type can store whole numbers from -9223372036854775808 to 9223372036854775807. This is used when int is not large enough to store the value. Note that you should end the value with an "L":
+
+![Screenshot 2022-04-21 at 9 44 59 PM](https://user-images.githubusercontent.com/100328396/164505112-849c34d4-ffe7-4287-a77e-6b8f20cd839b.png)
+
+<h4>Floating Point Types</h4>
+
+You should use a floating point type whenever you need a number with a decimal, such as 9.99 or 3.14515.
+
+<h5>Float</h5>
+
+The float data type can store fractional numbers from 3.4e−038 to 3.4e+038. <p>Note that you should end the value with an "f":</p>
+
+
 
 
 
