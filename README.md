@@ -205,7 +205,68 @@ Output:
 
 ![Screenshot 2022-04-21 at 9 26 21 PM](https://user-images.githubusercontent.com/100328396/164501702-954f5a30-9b1f-4fcd-9a04-5b41d8646e2a.png)
 
+<h3>Final Variables</h3>
 
+If you don't want others (or yourself) to overwrite existing values, use the final keyword (this will declare the variable as "final" or "constant", which means unchangeable and read-only):
+
+![Screenshot 2022-04-21 at 9 29 57 PM](https://user-images.githubusercontent.com/100328396/164502333-4a351be6-d76d-49fb-ae54-8e48657c8ed3.png)
+
+Output:
+
+![Screenshot 2022-04-21 at 9 30 42 PM](https://user-images.githubusercontent.com/100328396/164502480-b2769e43-a9c5-4dfc-99a2-0e27766e6206.png)
+
+ 
+A demonstration of how to declare variables of other types:
+
+![Screenshot 2022-04-21 at 9 31 22 PM](https://user-images.githubusercontent.com/100328396/164502612-73313328-bf0f-40f5-b30f-69716a99e489.png)
+
+You can also use the + character to add a variable to another variable:
+
+![Screenshot 2022-04-21 at 9 32 03 PM](https://user-images.githubusercontent.com/100328396/164502755-687b9c85-2a5e-4fe4-bac2-de285f6ca529.png)
+
+Output:
+
+![Screenshot 2022-04-21 at 9 32 47 PM](https://user-images.githubusercontent.com/100328396/164502898-8f491c3f-31ff-449c-9fe1-86b962afffc4.png)
+
+Declare Many Variables
+
+To declare more than one variable of the same type, you can use a comma-separated list:
+
+Instead of writing:
+
+![Screenshot 2022-04-21 at 9 33 35 PM](https://user-images.githubusercontent.com/100328396/164503072-19d3670a-4d72-44a4-8885-677e7d62cc05.png)
+
+We could write:
+
+![Screenshot 2022-04-21 at 9 34 17 PM](https://user-images.githubusercontent.com/100328396/164503206-0088861e-fb49-4fcd-9d95-59593afa434b.png)
+
+We can also assign the same value to multiple variables in one line:
+
+![Screenshot 2022-04-21 at 9 35 15 PM](https://user-images.githubusercontent.com/100328396/164503367-f658b0a7-978d-413a-9bfc-1c7039eebf82.png)
+
+<h3>Java Data Types</h3>
+
+
+Data types are divided into two groups:
+* Primitive data types - includes byte, short, int, long, float, double, boolean and char
+* Non-primitive data types - such as String, Arrays and Classes (you will learn more about these in a later chapter)
+
+<h4>Primitive Data Types</h4>
+
+A primitive data type specifies the size and type of variable values, and it has no additional methods.
+
+There are eight primitive data types in Java:
+
+![Screenshot 2022-04-21 at 9 36 55 PM](https://user-images.githubusercontent.com/100328396/164503679-693f9a53-39a2-4cf8-bc6e-dcf25f8a92aa.png)
+
+
+Even though there are many numeric types in Java, the most used for numbers are int (for whole numbers) and double (for floating point numbers).
+
+<h4>Integer Types</h4>
+
+<h5>Byte</h5>
+
+The <span style='color:red'>byte</span> data type can store whole numbers from -128 to 127. This can be used instead of int or other integer types to save memory when you are certain that the value will be within -128 and 127:
 
 
 
