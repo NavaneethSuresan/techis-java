@@ -430,9 +430,118 @@ A String in Java is actually an object, which contains methods that can perform 
 
 ![Screenshot 2022-04-21 at 10 05 44 PM](https://user-images.githubusercontent.com/100328396/164508653-4adeadf8-6acd-43d8-a779-1397d2eed281.png)
 
+<h4>More String Methods</h4>
+
+There are many string methods available, for example toUpperCase() and toLowerCase():
 
 
+![Screenshot 2022-04-21 at 10 07 15 PM](https://user-images.githubusercontent.com/100328396/164508903-74c06828-1923-4f49-b353-69fb6b6dd18d.png)
 
+<h4>Finding a Character in a String</h4>
+
+The indexOf() method returns the index (the position) of the first occurrence of a specified text in a string (including whitespace):
+
+![Screenshot 2022-04-21 at 10 08 02 PM](https://user-images.githubusercontent.com/100328396/164509024-e69b2777-bb76-4bcd-9098-a84e4e5bb356.png)
+
+<h4>String Concatenation</h4>
+
+In Java we can perform concatenation with either the ‘+’ operator or the concat() function.
+
+![Screenshot 2022-04-21 at 10 08 47 PM](https://user-images.githubusercontent.com/100328396/164509144-0005ba24-648b-44e0-96e0-1ba869143931.png)
+
+Both methods give us the same output:
+
+![Screenshot 2022-04-21 at 10 09 19 PM](https://user-images.githubusercontent.com/100328396/164509243-2d87bb1b-b9b7-420f-a271-f575ecd6b1b3.png)
+
+<h4>Numbers and strings</h4>
+
+If you add two numbers, the result will be a number:
+
+![Screenshot 2022-04-21 at 10 10 17 PM](https://user-images.githubusercontent.com/100328396/164509405-17e14a51-e454-406a-a4ef-e766a4dadf96.png)
+
+If you add two strings, the result will be a string concatenation:
+
+![Screenshot 2022-04-21 at 10 11 01 PM](https://user-images.githubusercontent.com/100328396/164509538-74c4b861-e2d0-4d08-88c1-6b66f545fc0d.png)
+
+ 
+If you add a number and a string, the result will be a string concatenation:
+
+
+![Screenshot 2022-04-21 at 10 11 32 PM](https://user-images.githubusercontent.com/100328396/164509620-1d15d494-0183-42d7-9e29-10d1f91b645b.png)
+
+<h4>Special characters</h4>
+
+Because strings must be written within quotes, Java will misunderstand this string, and generate an error:
+
+![Screenshot 2022-04-21 at 10 12 21 PM](https://user-images.githubusercontent.com/100328396/164509786-b8a81a7e-f346-48c8-9195-32a4aa080560.png)
+
+The solution to this problem is to use backslash escape characters.
+
+The backslash (\) escape character turns special characters into string characters:
+
+![Screenshot 2022-04-21 at 10 13 06 PM](https://user-images.githubusercontent.com/100328396/164509904-b2582952-dc4b-41eb-955a-0db7f8bb7209.png)
+
+![Screenshot 2022-04-21 at 10 13 37 PM](https://user-images.githubusercontent.com/100328396/164509988-ddeaf15b-29bf-4ea3-b7da-a1f01cdc67ce.png)
+
+
+<h4>Math</h4>
+
+The Java Math class has many methods that allows you to perform mathematical tasks on numbers.
+
+<h5>Math.max(x,y)</h5>
+
+The Math.max(x,y) method can be used to find the highest value of x and y:
+
+![Screenshot 2022-04-21 at 10 14 34 PM](https://user-images.githubusercontent.com/100328396/164510134-3ef6d3f7-2413-4248-b039-3ce1b931444c.png)
+
+<h5>Math.min(x,y)</h5>
+
+The Math.min(x,y) method can be used to find the lowest value of x and y:
+
+![Screenshot 2022-04-21 at 10 15 31 PM](https://user-images.githubusercontent.com/100328396/164510271-ab21ceaa-741a-4b92-ace6-f148ae33f803.png)
+
+<h5>Math.sqrt(x)</h5>
+
+The Math.sqrt(x) method returns the square root of x:
+
+![Screenshot 2022-04-21 at 10 16 25 PM](https://user-images.githubusercontent.com/100328396/164510425-ac59435f-2cb1-425e-a869-90bac0259012.png)
+
+<h5>Math.abs(x)</h5>
+
+The Math.abs(x) method returns the absolute (positive) value of x:
+
+![Screenshot 2022-04-21 at 10 17 25 PM](https://user-images.githubusercontent.com/100328396/164510577-f4468770-ea72-4a14-9410-c5b83df33e07.png)
+
+ 
+<h5>Random Numbers</h5>
+
+Math.random() returns a random number between 0.0 (inclusive), and 1.0 (exclusive):
+
+![Screenshot 2022-04-21 at 10 18 15 PM](https://user-images.githubusercontent.com/100328396/164510707-78a1f140-8a9e-4360-b62f-995f6832a13d.png)
+
+To get more control over the random number, e.g. you only want a random number between 0 and 100, you can use the following formula:
+
+
+![Screenshot 2022-04-21 at 10 18 59 PM](https://user-images.githubusercontent.com/100328396/164510837-2b6777f8-a98a-437e-ae21-6436bc0f740d.png)
+
+<h4>Java Booleans</h4>
+
+Very often, in programming, you will need a data type that can only have one of two values, like:
+
+* YES / NO
+* ON / OFF
+* TRUE / FALSE
+For this, Java has a boolean data type, which can take the values true or false.
+
+![Screenshot 2022-04-21 at 10 20 23 PM](https://user-images.githubusercontent.com/100328396/164511047-479e6422-67f4-43da-b90d-8eb0a31c3d86.png)
+
+<h4>Boolean Expression</h4>
+
+A Boolean expression is a Java expression that returns a Boolean value: true or false.
+
+You can use a comparison operator, such as the greater than (>) operator to find out if an expression (or a variable) is true:
+
+![Screenshot 2022-04-21 at 10 21 33 PM](https://user-images.githubusercontent.com/100328396/164511211-1e8048a5-dd17-4884-a13d-45f930cf4158.png)
 
 
 
