@@ -35,6 +35,18 @@ Write the following code in the Jdoodle compiler and press execute.
 Don't worry if you don't understand the code above - we will discuss it in detail in later chapters. For now, focus on how to run the code above.
 The output should be:
 
+![Screenshot 2022-04-21 at 1 50 08 PM](https://user-images.githubusercontent.com/100328396/164413136-335e3465-a33a-486e-bdf4-1ca8f1ea35ee.png)
+
+Congratulations! You have written and executed your first Java program.
+
+<h4>Java Syntax</h4>
+
+Syntax basically means the correct structure to write code in Java.
+
+![Screenshot 2022-04-21 at 1 50 08 PM](https://user-images.githubusercontent.com/100328396/164413593-63b5a393-179e-445d-a317-c0d408b6f3c0.png)
+
+
+
 
 
 
