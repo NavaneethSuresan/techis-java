@@ -297,6 +297,143 @@ You should use a floating point type whenever you need a number with a decimal, 
 
 The float data type can store fractional numbers from 3.4e−038 to 3.4e+038. <p>Note that you should end the value with an "f":</p>
 
+![Screenshot 2022-04-21 at 9 48 22 PM](https://user-images.githubusercontent.com/100328396/164505717-633a72f2-4840-43e1-a773-72ec59ea0017.png)
+
+<h5>Double</h5>
+
+The double data type can store fractional numbers from 1.7e−308 to 1.7e+308. Note that you should end the value with a "d":
+
+![Screenshot 2022-04-21 at 9 49 15 PM](https://user-images.githubusercontent.com/100328396/164505867-124b81f3-af6d-4570-80ac-a42ac5edfa9a.png)
+
+<h5>Use float or double?</h5>
+
+The precision of a floating point value indicates how many digits the value can have after the decimal point. The precision of float is only six or seven decimal digits, while double variables have a precision of about 15 digits. Therefore it is safer to use double for most calculations.
+
+<h5>Boolean Types</h5>
+
+A boolean data type is declared with the boolean keyword and can only take the values true or false:
+
+![Screenshot 2022-04-21 at 9 50 40 PM](https://user-images.githubusercontent.com/100328396/164506128-8e70d5f9-7188-4f2f-bedb-94067075244f.png)
+
+Boolean values are mostly used for conditional testing, which you will learn more about in a later chapter.
+
+<h5>Characters</h5>
+
+The char data type is used to store a single character. The character must be surrounded by single quotes, like 'A' or 'c':
+
+![Screenshot 2022-04-21 at 9 51 41 PM](https://user-images.githubusercontent.com/100328396/164506290-36d112ad-1dcf-4560-8b57-e6fe01a4749d.png)
+
+<h5>Strings</h5>
+
+The String data type is used to store a sequence of characters (text). String values must be surrounded by double quotes:
+
+![Screenshot 2022-04-21 at 9 52 31 PM](https://user-images.githubusercontent.com/100328396/164506464-f6f8f777-ac2f-488d-a16b-4bb094db6065.png)
+
+The String type is so much used and integrated in Java, that some call it "the special ninth type".
+
+A String in Java is actually a non-primitive data type, because it refers to an object. The String object has methods that are used to perform certain operations on strings. Don't worry if you don't understand the term "object" just yet. We will learn more about strings and objects in a later chapter.
+
+<h3>Non-Primitive Data Types</h3>
+
+
+Non-primitive data types are called reference types because they refer to objects.
+
+
+The main difference between primitive and non-primitive data types are:
+
+* Primitive types are predefined (already defined) in Java. Non-primitive types are created by the programmer and is not defined by Java (except for String).
+* Non-primitive types can be used to call methods to perform certain operations, while primitive types cannot.
+* A primitive type has always a value, while non-primitive types can be null.
+* A primitive type starts with a lowercase letter, while non-primitive types starts with an uppercase letter.
+* The size of a primitive type depends on the data type, while non-primitive types have all the same size.
+ 
+
+Examples of non-primitive types are String, Arrays, Classes, Interface, etc. You will learn more about these in a later chapter.
+
+
+<h3>Java Type Casting</h3>
+
+Type casting is when you assign a value of one primitive data type to another type.
+
+In Java, there are two types of casting:
+
+* Widening Casting (automatically) - converting a smaller type to a larger type size
+byte -> short -> char -> int -> long -> float -> double
+
+* Narrowing Casting (manually) - converting a larger type to a smaller size 
+type
+double -> float -> long -> int -> char -> short -> byte
+<h4>Widening Casting</h4>
+
+Widening casting is done automatically when passing a smaller size type to a larger size type:
+
+![Screenshot 2022-04-21 at 9 56 37 PM](https://user-images.githubusercontent.com/100328396/164507117-43897878-6c34-42a0-912d-568696ccf36c.png)
+
+<h4>Narrow Casting</h4>
+
+Narrowing casting must be done manually by placing the type in parentheses in front of the value:
+
+![Screenshot 2022-04-21 at 9 57 41 PM](https://user-images.githubusercontent.com/100328396/164507274-f79650cf-694d-4692-81c2-fee90ce04fed.png)
+
+<h3>Operators</h3>
+
+Java divides the operators into the following groups:
+
+* Arithmetic operators
+* Assignment operators
+* Comparison operators
+* Logical operators
+*bBitwise operators
+ 
+<h4>Arithmetic Operators</h4>
+
+Arithmetic operators are used to perform common mathematical operations.
+
+![Screenshot 2022-04-21 at 9 59 18 PM](https://user-images.githubusercontent.com/100328396/164507525-10a7905a-07f6-40f0-9c66-2373e2a42e05.png)
+
+<h4>Java Assignment Operators</h4>
+
+Assignment operators are used to assign values to variables.
+
+In the example below, we use the assignment operator (=) to assign the value 10 to a variable called x:
+
+![Screenshot 2022-04-21 at 10 00 28 PM](https://user-images.githubusercontent.com/100328396/164507729-fa975490-dc5f-4653-8140-67bc460b2bcd.png)
+
+The addition assignment operator (+=) adds a value to a variable and then assigns it to the variable:
+
+![Screenshot 2022-04-21 at 10 01 05 PM](https://user-images.githubusercontent.com/100328396/164507844-6915d10d-b5df-4982-af91-1a47578bb31d.png)
+
+![Screenshot 2022-04-21 at 10 01 59 PM](https://user-images.githubusercontent.com/100328396/164508000-70480fe3-bd93-4a17-a232-bfafea4607d7.png)
+
+
+<h4>Java Comparison Operators</h4>
+
+Comparison operators are used to compare two values:
+
+![Screenshot 2022-04-21 at 10 02 58 PM](https://user-images.githubusercontent.com/100328396/164508133-eb73c71a-3059-4f85-aa99-99d205d280d0.png)
+
+<h4>Java Logical Operators</h4>
+
+Logical operators are used to determine the logic between variables or values:
+
+![Screenshot 2022-04-21 at 10 03 46 PM](https://user-images.githubusercontent.com/100328396/164508275-c772247e-afb9-4326-a969-463bef4b0538.png)
+
+<h3>Java Strings</h3>
+
+Strings are used for storing text. A String variable contains a collection of characters surrounded by double quotes:
+
+![Screenshot 2022-04-21 at 10 04 35 PM](https://user-images.githubusercontent.com/100328396/164508425-8aca1f6b-27d2-447b-80c2-561f932ef84c.png)
+
+<h4>String Length</h4>
+
+A String in Java is actually an object, which contains methods that can perform certain operations on strings. For example, the length of a string can be found with the length() method:
+
+![Screenshot 2022-04-21 at 10 05 44 PM](https://user-images.githubusercontent.com/100328396/164508653-4adeadf8-6acd-43d8-a779-1397d2eed281.png)
+
+
+
+
+
 
 
 
