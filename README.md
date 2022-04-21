@@ -32,5 +32,9 @@ Write the following code in the Jdoodle compiler and press execute.
 
 ![Screenshot 2022-04-21 at 1 50 08 PM](https://user-images.githubusercontent.com/100328396/164412746-8612b915-4b68-446d-9523-5190e98f2a13.png)
 
+Don't worry if you don't understand the code above - we will discuss it in detail in later chapters. For now, focus on how to run the code above.
+The output should be:
+
+
 
 
